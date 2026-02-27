@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "title": "Balwant Seva Sansthan - Empowering Rural Communities",
+    "description": "Balwant Seva Sansthan is a charitable foundation dedicated to uplifting rural communities in Haryana through education, healthcare, and sustainable development."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "library": "Library",
+    "programs": "Programs",
+    "gallery": "Gallery",
+    "getInvolved": "Get Involved",
+    "blog": "Blog"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "toggleDarkMode": "Toggle dark mode",
+    "toggleLanguage": "Toggle language",
+    "increaseFontSize": "Increase font size",
+    "decreaseFontSize": "Decrease font size",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "home": {
+    "hero": {
+      "title": "Empowering Rural Lives Through Compassion and Service",
+      "subtitle": "Balwant Seva Sansthan works at the grassroots level to bring education, healthcare, and opportunity to underserved villages across Haryana.",
+      "ctaPrimary": "Support Our Mission",
+      "ctaSecondary": "Explore Our Work"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Founded in the memory of late Shri Balwant Singh and late Smt. Sunehari Devi, our sansthan is committed to serving rural communities by providing access to quality education, free healthcare, agricultural guidance, and awareness of government welfare schemes. We believe that every villager deserves the opportunity to lead a dignified and self-sufficient life."
+    },
+    "impact": {
+      "title": "Our Impact in Numbers",
+      "children": "Children Learning",
+      "villages": "Villages Reached",
+      "books": "Books in Library",
+      "camps": "Health Camps Conducted",
+      "childrenCount": "40+",
+      "villagesCount": "5",
+      "booksCount": "50+",
+      "campsCount": "1"
+    },
+    "programs": {
+      "title": "Our Programs",
+      "subtitle": "From healthcare and education to agricultural awareness and government scheme outreach, our programs are designed to address the real needs of rural families.",
+      "viewAll": "View All Programs"
+    },
+    "testimonials": {
+      "title": "Voices from the Village",
+      "items": [
+        {
+          "name": "Coming Soon",
+          "role": "Village Khairi",
+          "quote": "Testimonials from our community members will be shared here soon."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Join Us in Making a Difference",
+      "description": "Whether you contribute your time, resources, or simply spread the word, every act of support helps us reach one more village, educate one more child, and heal one more family.",
+      "button": "Get Involved Today"
+    }
+  },
+  "about": {
+    "title": "About Balwant Seva Sansthan",
+    "subtitle": "A legacy of service rooted in love, compassion, and the unwavering belief that rural communities deserve better.",
+    "story": {
+      "title": "Our Story",
+      "p1": "Balwant Seva Sansthan was established in the village Khairi, Hisar on 31st of December 2025 in loving memory of late Shri Balwant Singh, a man who spent his life serving the people of his village Khairi and left the world too soon. Him and his wife, Late Smt. Sunehari Devi believed that true wealth lies not in what we accumulate but in what we give back to our community. They both were known to be always open to those in need, and never turned away anyone seeking help, whether it was a meal, guidance, or simply a kind word.",
+      "p2": "Inspired by their selfless spirit, their son Saty Narain Kundu founded this sansthan to carry forward their vision of a just and empowered rural society. A Civil Engineer by education who retired from the Haryana Government HSAMB Department as Sub Divisional Engineer, he has always believed in giving back and supporting the community. He maintains that one must never stray from their roots and should stay humble while keeping strong engagement with society.",
+      "p3": "Today, Balwant Seva Sansthan runs free medical camps, supports children's education, manages the Sunehari Devi Library for girls, and conducts awareness drives about government welfare schemes and modern agricultural practices. Every program we run is a tribute to the belief that even one person's dedication can transform an entire community."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A rural India where every individual has access to quality education, healthcare, and the knowledge to claim their rights and build a self-reliant future. We envision thriving villages where children dream boldly, women lead confidently, and farmers prosper sustainably."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower underserved rural communities in Haryana by delivering free healthcare, promoting education for children and girls, spreading awareness of government welfare schemes, and fostering agricultural and entrepreneurial knowledge at the grassroots level."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "items": [
+        {
+          "title": "Compassion",
+          "description": "We approach every individual and family with empathy and genuine care, understanding their struggles and treating them with the dignity they deserve."
+        },
+        {
+          "title": "Education",
+          "description": "We believe that education is the most powerful tool for transformation. Every child, regardless of their background, deserves the chance to learn and grow."
+        },
+        {
+          "title": "Empowerment",
+          "description": "We do not just provide aid; we equip communities with knowledge, skills, and awareness so they can stand on their own and advocate for their rights."
+        },
+        {
+          "title": "Sustainability",
+          "description": "Our programs are designed for lasting impact. We focus on building local capacity and sustainable practices that continue to benefit communities long after our direct involvement."
+        },
+        {
+          "title": "Integrity",
+          "description": "We operate with complete transparency and accountability. Every rupee donated is used responsibly, and we maintain honest communication with our supporters and beneficiaries."
+        },
+        {
+          "title": "Community",
+          "description": "We believe that meaningful change happens when people come together. Our work is built on collaboration with villagers, local leaders, volunteers, and partner organizations."
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "A dedicated group of individuals driven by the shared goal of rural upliftment and community service.",
+      "members": [
+        {
+          "name": "Saty Narain Kundu",
+          "role": "Founder & President",
+          "description": "Son of late Shri Balwant Singh and late Smt. Sunehari Devi. A Civil Engineer by education, retired from Haryana Government HSAMB Department as Sub Divisional Engineer. Founded the sansthan to honour his parents' legacy of community service."
+        }
+      ]
+    }
+  },
+  "library": {
+    "title": "Sunehari Devi Girls Library",
+    "subtitle": "A sanctuary of knowledge and empowerment for the girls of rural Haryana.",
+    "description": "Named in the cherished memory of our mother, late Smt. Sunehari Devi, this library stands as a tribute to her lifelong belief in the power of education for girls. Sunehari Devi herself never had the opportunity to attend school, yet she ensured that every girl in her family received an education. Inspired by her quiet determination, we established this library to provide a safe, welcoming space where girls from surrounding villages can read, study, prepare for examinations, and discover the confidence to shape their own futures.",
+    "stats": {
+      "title": "Library at a Glance",
+      "books": "50+",
+      "visitors": "100+",
+      "programs": "3",
+      "years": "2+",
+      "booksLabel": "Books and Study Materials",
+      "visitorsLabel": "Monthly Visitors",
+      "programsLabel": "Active Programs",
+      "yearsLabel": "Months of Service"
+    },
+    "features": {
+      "title": "What We Offer",
+      "items": [
+        {
+          "title": "Reading Programs",
+          "description": "Structured reading sessions for children and young adults, including storytelling hours, book clubs, and guided reading activities to cultivate a lifelong love of learning."
+        },
+        {
+          "title": "Digital Resources",
+          "description": "Access to computers and tablets loaded with educational software, online courses, and digital study materials to bridge the rural-urban knowledge gap."
+        },
+        {
+          "title": "Exam Preparation",
+          "description": "Dedicated study sections and coaching support for girls preparing for board examinations, competitive exams, and college entrance tests, with curated reference materials."
+        },
+        {
+          "title": "Safe Space for Girls",
+          "description": "A secure and supportive environment where girls can study without hesitation, attend workshops on health and career awareness, and build friendships with fellow learners."
+        },
+        {
+          "title": "Mentorship Program",
+          "description": "Connecting young girls with educated women from nearby towns and cities who volunteer as mentors, providing academic guidance, career counseling, and personal encouragement."
+        },
+        {
+          "title": "Community Events",
+          "description": "Regular cultural events, essay competitions, debate sessions, and awareness drives organized at the library to engage the wider village community and celebrate learning."
+        }
+      ]
+    }
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Comprehensive grassroots initiatives addressing the most pressing needs of rural communities across health, education, agriculture, and government welfare awareness.",
+    "viewAll": "Learn More",
+    "items": {
+      "medical": {
+        "title": "Medical Health Camps",
+        "description": "We organize free medical health camps in underserved villages where access to even basic healthcare is a challenge. Our camps bring qualified doctors, nurses, and health workers directly to the community, providing general checkups, screenings, and distribution of essential medicines at no cost.",
+        "highlights": [
+          "Free general health checkups and consultations",
+          "Blood pressure, diabetes, and vision screenings",
+          "Distribution of free medicines and first-aid kits",
+          "Maternal and child health awareness sessions"
+        ]
+      },
+      "education": {
+        "title": "Educational Initiatives",
+        "description": "Education is at the heart of everything we do. Our educational programs support children from economically weaker families by providing free tutoring, school supplies, and scholarship assistance. We run after-school learning centers where trained volunteers help students.",
+        "highlights": [
+          "Free after-school tutoring and homework support",
+          "Distribution of textbooks, notebooks, and stationery",
+          "Scholarship assistance for meritorious students from low-income families",
+          "Board exam preparation workshops and study groups"
+        ]
+      },
+      "agriculture": {
+        "title": "Agricultural & Rural Business Awareness",
+        "description": "Most families in our target villages depend on agriculture for their livelihood, yet many lack access to modern farming knowledge and market information. Our agricultural awareness program organizes workshops on improved cultivation techniques, organic farming, and efficient use of water resources.",
+        "highlights": [
+          "Workshops on modern and organic farming techniques",
+          "Soil testing awareness and crop rotation guidance",
+          "Water conservation and efficient irrigation practices",
+          "Rural entrepreneurship and small business development training"
+        ]
+      },
+      "government": {
+        "title": "Government Scheme Awareness",
+        "description": "A significant number of rural families remain unaware of the government welfare schemes they are entitled to benefit from. Our awareness camps educate villagers about key central and state government programs and assist them with the application process.",
+        "highlights": [
+          "PM-KISAN: Helping eligible farmers enroll for direct income support of Rs. 6,000 per year",
+          "Ayushman Bharat (PMJAY): Assisting families in obtaining health insurance coverage of up to Rs. 5 lakh",
+          "MGNREGA: Guiding rural households on securing 100 days of guaranteed wage employment",
+          "Kisan Credit Card: Supporting farmers in applying for affordable agricultural credit"
+        ]
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Glimpses of our work across villages, classrooms, health camps, and community events that capture the spirit of service and the smiles it brings.",
+    "categories": {
+      "all": "All",
+      "education": "Education",
+      "library": "Library",
+      "healthcare": "Healthcare",
+      "events": "Events"
+    },
+    "items": [
+      {
+        "title": "Children attending an after-school tutoring session at the village learning center",
+        "category": "education"
+      },
+      {
+        "title": "Girls reading and studying at the Sunehari Devi Girls Library",
+        "category": "library"
+      },
+      {
+        "title": "Doctors conducting free health checkups during a village medical camp",
+        "category": "healthcare"
+      },
+      {
+        "title": "Farmers participating in an agricultural awareness workshop on modern techniques",
+        "category": "events"
+      },
+      {
+        "title": "Distribution of textbooks and stationery to school children",
+        "category": "education"
+      },
+      {
+        "title": "Community members gathering for a government scheme awareness drive",
+        "category": "events"
+      },
+      {
+        "title": "Young visitors exploring digital resources at the library",
+        "category": "library"
+      },
+      {
+        "title": "Eye examination and spectacle distribution at a rural health camp",
+        "category": "healthcare"
+      }
+    ]
+  },
+  "getInvolved": {
+    "title": "Get Involved",
+    "subtitle": "Every contribution, whether of time, resources, or voice, brings us closer to transforming the lives of rural families. Here is how you can help.",
+    "ways": {
+      "donate": {
+        "title": "Donate",
+        "description": "Your financial contribution directly funds free medical camps, educational materials for children, library resources, and awareness programs. Every rupee you donate reaches the people who need it most, with complete transparency and accountability."
+      },
+      "volunteer": {
+        "title": "Volunteer",
+        "description": "Join our team of dedicated volunteers who travel to villages, teach at learning centers, assist at health camps, and help families navigate government schemes. Whether you can give a few hours or a few months, your time and skills can change lives."
+      },
+      "spread": {
+        "title": "Spread the Word",
+        "description": "Share our story with your friends, family, and social networks. Raising awareness about our work helps us reach more supporters, attract partnerships, and amplify our impact across more villages."
+      }
+    },
+    "form": {
+      "title": "Reach Out to Us",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "inquiryType": "Type of Inquiry",
+      "inquiryOptions": {
+        "donation": "Donation",
+        "volunteer": "Volunteering",
+        "general": "General Inquiry",
+        "partnership": "Partnership"
+      },
+      "message": "Your Message",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Thank you for reaching out! We have received your message and will get back to you within 48 hours.",
+      "errors": {
+        "nameRequired": "Please enter your full name.",
+        "emailRequired": "Please enter your email address.",
+        "emailInvalid": "Please enter a valid email address.",
+        "messageRequired": "Please enter your message."
+      }
+    },
+    "bankDetails": {
+      "title": "Bank Details for Donations",
+      "note": "Bank details for donations will be updated soon. Please contact us directly."
+    },
+    "taxBenefits": {
+      "title": "Tax Benefits",
+      "note": "Registration under 80G and 12A of Income Tax Act. Certificate details will be updated soon."
+    }
+  },
+  "blog": {
+    "title": "Blog & Updates",
+    "subtitle": "Stay informed about our latest activities, success stories, and upcoming events from the field.",
+    "readMore": "Read More",
+    "posts": [
+      {
+        "title": "Medical Camp in Sarai Village Provides Free Checkups to Over 300 Families",
+        "date": "2024-10-15",
+        "excerpt": "Our most recent medical health camp in Gram Panchayat Sarai brought together a team of five doctors and twelve health workers who provided free general checkups, diabetes screenings, and eye examinations to over 300 families. Essential medicines were distributed, and 45 patients were referred to the district hospital for further treatment.",
+        "category": "Healthcare"
+      },
+      {
+        "title": "Sunehari Devi Girls Library Expands Collection with 500 New Books",
+        "date": "2024-09-02",
+        "excerpt": "Thanks to generous donations from supporters across the country, our girls' library has added 500 new books covering science, literature, competitive exam preparation, and career guidance. The expanded collection is already seeing increased daily visits from girls in surrounding villages eager to explore the new resources.",
+        "category": "Library"
+      },
+      {
+        "title": "Agricultural Workshop Introduces Organic Farming Practices to Local Farmers",
+        "date": "2024-08-20",
+        "excerpt": "Over 80 farmers from twelve villages attended our two-day agricultural workshop focused on organic farming methods, soil health management, and water conservation techniques. Expert speakers from the Krishi Vigyan Kendra guided participants through practical demonstrations, and each farmer received a starter kit for organic composting.",
+        "category": "Agriculture"
+      }
+    ]
+  },
+  "footer": {
+    "about": "Balwant Seva Sansthan is a registered charitable foundation dedicated to empowering rural communities in Haryana through free healthcare, education, library services, and government scheme awareness programs.",
+    "quickLinks": "Quick Links",
+    "programs": "Programs",
+    "contact": "Contact Us",
+    "address": "Balwant Seva Sansthan - Sunehari Devi Library, VPO Khairi, Haryana 125001, India",
+    "addressMapUrl": "https://maps.app.goo.gl/QLwsjsv6MwJ9N3MVA",
+    "phone": "+91 70116 71926",
+    "email": "info@balwantfoundation.org",
+    "socialMedia": "Follow Us",
+    "copyright": "\u00a9 2026 Balwant Seva Sansthan. All rights reserved.",
+    "ngo": {
+      "title": "NGO Registration",
+      "registration": "Registration details will be updated soon.",
+      "certificate": "80G Certificate details will be updated soon."
+    }
+  }
+}
