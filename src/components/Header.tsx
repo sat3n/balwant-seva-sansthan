@@ -55,13 +55,10 @@ export default function Header() {
             {/* Logo / Name */}
             <Link
               href="/"
-              className="flex items-center gap-2 min-h-[44px] shrink-0"
+              className="flex items-center min-h-[44px] shrink-0"
             >
               <span className="text-xl lg:text-2xl font-bold text-primary">
-                Balwant
-              </span>
-              <span className="text-xl lg:text-2xl font-bold text-secondary hidden sm:inline">
-                Seva Sansthan
+                Balwant Seva Sansthan
               </span>
             </Link>
 
