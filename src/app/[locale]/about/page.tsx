@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 import SectionHeading from '@/components/SectionHeading';
-import PlaceholderImage from '@/components/PlaceholderImage';
 import { HeartIcon, GraduationCapIcon, UsersIcon, TreeIcon, ShieldIcon, HandshakeIcon } from '@/components/icons';
 
 type Props = {
@@ -51,12 +51,15 @@ export default function AboutPage({ params: { locale } }: Props) {
                 <p>{t('story.p3')}</p>
               </div>
             </div>
-            <PlaceholderImage
-              height="h-80"
-              bgColor="bg-primary/10 dark:bg-primary/5"
-              icon="heart"
-              label={t('story.title')}
-            />
+            <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-md">
+              <Image
+                src="/images/09ZAq.jpg"
+                alt="Entrance to Balwant Seva Sansthan – Sunehari Devi Girls Library, Village Seri, Hisar"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
           </div>
         </div>
       </section>
