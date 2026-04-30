@@ -54,7 +54,7 @@ export default function AboutPage({ params: { locale } }: Props) {
             <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-md">
               <Image
                 src="/images/09ZAq.jpg"
-                alt="Entrance to Balwant Seva Sansthan – Sunehari Devi Girls Library, Village Seri, Hisar"
+                alt={t('images.entranceGateAlt')}
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 50vw"
