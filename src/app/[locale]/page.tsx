@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { PROGRAM_KEYS } from '@/lib/constants';
 import ImpactStats from '@/components/ImpactStats';
@@ -19,8 +20,16 @@ export default function HomePage({ params: { locale } }: Props) {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary via-primary-dark to-accent py-20 lg:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-black/10" />
+      <section className="relative py-20 lg:py-32 overflow-hidden">
+        <Image
+          src="/images/09ZAq.jpg"
+          alt="Entrance to Balwant Seva Sansthan – Sunehari Devi Girls Library, Village Seri, Hisar"
+          fill
+          className="object-cover object-center"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/55 via-primary-dark/50 to-accent/45" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             {t('hero.title')}

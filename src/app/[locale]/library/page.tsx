@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 import SectionHeading from '@/components/SectionHeading';
-import PlaceholderImage from '@/components/PlaceholderImage';
 import { BookIcon, LaptopIcon, GraduationCapIcon, ShieldIcon, UsersIcon, HeartIcon } from '@/components/icons';
 
 type Props = {
@@ -56,12 +56,15 @@ export default function LibraryPage({ params: { locale } }: Props) {
                 {t('description')}
               </p>
             </div>
-            <PlaceholderImage
-              height="h-80"
-              bgColor="bg-accent/10 dark:bg-accent/5"
-              icon="book"
-              label={t('title')}
-            />
+            <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-md">
+              <Image
+                src="/images/EGFRP.jpg"
+                alt="Outdoor courtyard and activity area at Sunehari Devi Girls Library"
+                fill
+                className="object-cover object-center saturate-[0.6] brightness-90 contrast-90 sepia-[0.18]"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -108,25 +111,42 @@ export default function LibraryPage({ params: { locale } }: Props) {
         </div>
       </section>
 
-      {/* Gallery Preview */}
-      <section className="py-16 lg:py-20 bg-surface-card dark:bg-surface-dark-card">
+      {/* Library in Action */}
+      <section className="py-16 lg:py-20 bg-surface-card dark:bg-surface-dark-card" aria-labelledby="gallery-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <SectionHeading title="Library in Action" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { color: 'bg-accent/15', icon: 'book' as const },
-              { color: 'bg-secondary/15', icon: 'graduation' as const },
-              { color: 'bg-primary/15', icon: 'laptop' as const },
-              { color: 'bg-accent/20', icon: 'users' as const },
-              { color: 'bg-secondary/20', icon: 'book' as const },
-              { color: 'bg-primary/20', icon: 'graduation' as const },
-            ].map((item, i) => (
-              <PlaceholderImage
-                key={i}
-                height="h-40 md:h-52"
-                bgColor={item.color}
-                icon={item.icon}
-                className="dark:opacity-80"
-              />
+              {
+                src: '/images/GcVPX.jpg',
+                alt: 'Girls studying at individual desks in the Sunehari Devi Girls Library',
+                caption: 'Girls studying in the dedicated Sunehari Devi Girls Library',
+              },
+              {
+                src: '/images/LDKGh.jpg',
+                alt: 'Students focused on reading and writing at library study stations',
+                caption: 'Quiet study sessions in a focused, welcoming environment',
+              },
+              {
+                src: '/images/ZvdZ5.jpg',
+                alt: 'Girls working at library desks with portraits of founders on the wall',
+                caption: 'Girls studying in the dedicated Sunehari Devi Girls Library',
+              },
+            ].map((photo) => (
+              <figure key={photo.src} className="flex flex-col gap-2">
+                <div className="relative h-52 w-full rounded-xl overflow-hidden shadow-sm">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
+                <figcaption className="text-sm text-text-dark/60 dark:text-text-light/60 text-center px-2">
+                  {photo.caption}
+                </figcaption>
+              </figure>
             ))}
           </div>
         </div>
