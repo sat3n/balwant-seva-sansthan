@@ -33,12 +33,21 @@ export default function LibraryPage({ params: { locale } }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-r from-accent/10 to-secondary/10 dark:from-accent/5 dark:to-secondary/5 py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-text-dark dark:text-text-light mb-4">
+      <section className="relative py-16 lg:py-20 overflow-hidden">
+        <Image
+          src="/images/LDKGh.jpg"
+          alt={t('images.heroAlt')}
+          fill
+          className="object-cover object-center"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/65" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             {t('title')}
           </h1>
-          <p className="text-lg text-text-dark/70 dark:text-text-light/70 max-w-2xl mx-auto">
+          <p className="text-lg text-white/85 max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
         </div>
@@ -59,7 +68,7 @@ export default function LibraryPage({ params: { locale } }: Props) {
             <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-md">
               <Image
                 src="/images/EGFRP.jpg"
-                alt="Outdoor courtyard and activity area at Sunehari Devi Girls Library"
+                alt={t('images.courtyardAlt')}
                 fill
                 className="object-cover object-center saturate-[0.6] brightness-90 contrast-90 sepia-[0.18]"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -114,23 +123,23 @@ export default function LibraryPage({ params: { locale } }: Props) {
       {/* Library in Action */}
       <section className="py-16 lg:py-20 bg-surface-card dark:bg-surface-dark-card" aria-labelledby="gallery-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="Library in Action" />
+          <SectionHeading title={t('images.galleryTitle')} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
                 src: '/images/GcVPX.jpg',
-                alt: 'Girls studying at individual desks in the Sunehari Devi Girls Library',
-                caption: 'Girls studying in the dedicated Sunehari Devi Girls Library',
+                alt: t('images.interior1Alt'),
+                caption: t('images.interior1Caption'),
               },
               {
                 src: '/images/LDKGh.jpg',
-                alt: 'Students focused on reading and writing at library study stations',
-                caption: 'Quiet study sessions in a focused, welcoming environment',
+                alt: t('images.interior2Alt'),
+                caption: t('images.interior2Caption'),
               },
               {
                 src: '/images/ZvdZ5.jpg',
-                alt: 'Girls working at library desks with portraits of founders on the wall',
-                caption: 'Girls studying in the dedicated Sunehari Devi Girls Library',
+                alt: t('images.interior3Alt'),
+                caption: t('images.interior3Caption'),
               },
             ].map((photo) => (
               <figure key={photo.src} className="flex flex-col gap-2">

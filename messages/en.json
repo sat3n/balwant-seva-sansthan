@@ -22,6 +22,9 @@
     "closeMenu": "Close navigation menu"
   },
   "home": {
+    "images": {
+      "entranceGateAlt": "Entrance to Balwant Seva Sansthan - Sunehari Devi Girls Library, Village Khairi, Hisar"
+    },
     "hero": {
       "title": "Empowering Rural Lives Through Compassion and Service",
       "subtitle": "Balwant Seva Sansthan works at the grassroots level to bring education, healthcare, and opportunity to underserved villages across Haryana.",
@@ -65,6 +68,9 @@
     }
   },
   "about": {
+    "images": {
+      "entranceGateAlt": "Entrance to Balwant Seva Sansthan - Sunehari Devi Girls Library, Village Khairi, Hisar"
+    },
     "title": "About Balwant Seva Sansthan",
     "subtitle": "A legacy of service rooted in love, compassion, and the unwavering belief that rural communities deserve better.",
     "story": {
@@ -123,6 +129,17 @@
     }
   },
   "library": {
+    "images": {
+      "heroAlt": "Girls studying at the Sunehari Devi Girls Library",
+      "courtyardAlt": "Outdoor courtyard and activity area at Sunehari Devi Girls Library",
+      "interior1Alt": "Girls studying at individual desks in the Sunehari Devi Girls Library",
+      "interior2Alt": "Students focused on reading and writing at library study stations",
+      "interior3Alt": "Girls working at library desks with portraits of founders on the wall",
+      "interior1Caption": "Girls studying in the dedicated Sunehari Devi Girls Library",
+      "interior2Caption": "Quiet study sessions in a focused, welcoming environment",
+      "interior3Caption": "Girls studying in the dedicated Sunehari Devi Girls Library",
+      "galleryTitle": "Library in Action"
+    },
     "title": "Sunehari Devi Girls Library",
     "subtitle": "A sanctuary of knowledge and empowerment for the girls of rural Haryana.",
     "description": "Named in the cherished memory of our mother, late Smt. Sunehari Devi, this library stands as a tribute to her lifelong belief in the power of education for girls. Sunehari Devi herself never had the opportunity to attend school, yet she ensured that every girl in her family received an education. Inspired by her quiet determination, we established this library to provide a safe, welcoming space where girls from surrounding villages can read, study, prepare for examinations, and discover the confidence to shape their own futures.",

@@ -23,7 +23,7 @@ export default function HomePage({ params: { locale } }: Props) {
       <section className="relative py-20 lg:py-32 overflow-hidden">
         <Image
           src="/images/09ZAq.jpg"
-          alt="Entrance to Balwant Seva Sansthan – Sunehari Devi Girls Library, Village Seri, Hisar"
+          alt={t('images.entranceGateAlt')}
           fill
           className="object-cover object-center"
           priority
